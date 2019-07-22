@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Personal CV</title>
+		<meta charset="UTF-8">
+		<style>
+			.Allbody
+				{
+					border:5px solid purple;
+				}
+			.Personal_CV
+				{
+					color:green;
+					font-size="180%";
+					border:6px solid orange;
+					display:inline-block;
+				}
+			img
+				{
+					float:right;
+				}
+			.d
+				{
+					float:left;
+					<!--display:inline-block;
+					margin-right:50px;-->
+				}
+			.header1
+				{
+					color:red;
+					text-align:left;
+					font-size:160%;
+				}
+			.header2
+				{
+					color:red;
+					text-align:left;
+					font-size:160%;
+				}
+			.header3
+				{
+					color:red;
+					text-align:left;
+					font-size:160%;
+				}
+			.fonter
+				{
+					border:3px solid purple;
+				}
+			.btn
+				{
+					background-color:orange;
+					color:white;
+					font-family:bold;
+				}
+			.para
+				{
+					color:brown;
+					font-size:100%;
+				}
+		</style>
+	</head>
+	<body style="background-color:yellow">
+	<div class="Allbody">
+		<center><h1 class="Personal_CV">Personal C.V</h1></center>
+		<center><input type="button" name="choose_button" value="Choose CV Color" class="btn"></center>
+		<hr class="fonter">
+		<h1 style="color:blue;">Badr Sayed Saleh Sayed</h1>
+		<h3 class="header1">Personal Data<h3>
+		<hr class="fonter">
+		<div>
+			<div>
+				<img src="Badr.PNG" alt="badr sayed" width="300" height="220">
+				<p class="d">
+					
+					Full Name :<br>
+					Date of Birth :<br>
+					Nationality :<br>
+					Marital Status :<br>
+					Location :<br>
+					
+				</p>
+				<p>
+					<br>
+					Badr Sayed Saleh Sayed<br>
+					20/10/1997<br>
+					Egyptian<br>
+					single<br>
+					Beni Suef,Egypt<br>
+					
+				</p>
+			</div>
+			<h3 class="header2">Contact Information</h3>
+			<hr class="fonter">
+			<br>
+			<div class="d">
+				<p>
+					Gender :<br>
+					phone :<br>
+					E-Mail :<br>
+				</p>
+			</div>
+			<div>
+				<p>
+					male<br>
+					01115018618-01144512779<br>
+					badrsayed.cs2020@gmail.com<br>
+				</p>
+			</div>
+			<h3 class="header3">Professional Experience</h3>
+			<hr class="fonter">
+			<div>
+				<p>
+						three years experience in c++ programming<br>
+						two years experience in java programming<br>
+						two years experience in problem solving programming<br>
+						experience in<br>
+						<ul>
+							<li>HTML</li>
+							<li>HTML5</li>
+							<li>CSS</li>
+							<li>CSS3</li>
+							<li>Bootstrap</li>
+							<li>JavaScript</li>
+							<li>UI</li>
+							<li>UX</li>
+						</ul>
+				</p>
+			</div>
+			<hr style="border:7px solid purple">
+		</div>
+			<center><p class="para">Contact me on E-Mail : badrsayed.cs2020@gmail.com.</p><center>
+	</div>
+	</body>
+</html>
